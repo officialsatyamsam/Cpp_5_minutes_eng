@@ -23,6 +23,15 @@ int main(){
    
    
     // int age = 25; // This will cause a compilation error because 'age' is declared as a constant and cannot be modified.
-    return 0;
+    
+    #define MAX 100 // MAX is a preprocessor directive that defines a constant named MAX with the value 100.
+    
+    num = 9 | 5;
+    cout << num << endl; 
+    cout << (9 | 5) << endl;    // This will output 13, which is the result of the bitwise OR operation between 9 and 5.
+    
 
+    num == 13 ? cout << "True" : cout << "False";   // This is a ternary operator that checks if 'num' is equal to 13. If it is, it will output "True"; otherwise, it will output "False".
+    
+    return 0;
 }
